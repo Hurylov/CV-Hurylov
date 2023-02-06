@@ -56,7 +56,7 @@ font-family: 'Aboreto', cursive;
   line-height: 24px;
   color: #595959;
   width: 600px;
-  
+  font-family: 'Alegreya Sans SC', sans-serif
 }
 
 /* projects styles */
@@ -100,7 +100,15 @@ font-family: 'Aboreto', cursive;
 }
 
 .project-link {
-  margin-left: 10px;
+  font-size: 19px;
+  font-family: 'Alegreya Sans SC', sans-serif
+}
+
+.project-link-git{
+  padding-left: 20px;
+    font-size: 19px;
+      font-family: 'Alegreya Sans SC', sans-serif;
+      color: #595959;
 }
 
 .project-bracet {
@@ -114,6 +122,9 @@ font-family: 'Aboreto', cursive;
 .project-text{
   margin-top: 0;
   margin-left: 10px;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 /* work styles */
 
@@ -167,7 +178,7 @@ font-family: 'Aboreto', cursive;
   font-size: 20px;
   line-height: 24px;
   color: #595959;
-  font-family: 'Aboreto', cursive;
+  
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -179,20 +190,24 @@ font-family: 'Aboreto', cursive;
 
 .department {
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 10px;
+  font-family: 'Alegreya Sans SC', sans-serif
 }
 
 .university {
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-family: Aboreto, cursive;
   color: #fb6d3a;
   margin-bottom: 10px;
+
 }
 
 /* sidebar styles */
