@@ -125,6 +125,7 @@ font-family: 'Aboreto', cursive;
   font-size: 19px;
   font-weight: 400;
   font-family: 'Alegreya Sans SC', sans-serif;
+  word-spacing: 5px;
 }
 /* work styles */
 
@@ -188,7 +189,7 @@ font-family: 'Aboreto', cursive;
     font-size: 20px;
     line-height: 24px;
     color: #595959;
-  
+  word-spacing: 5px;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
