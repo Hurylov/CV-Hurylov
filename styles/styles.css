@@ -224,7 +224,7 @@ font-family: 'Aboreto', cursive;
 /* sidebar styles */
 
 .sidebar {
-  background-color: #74747491;
+  background-color: #090909;
   padding-top: 40px;
   width: 300px;
 }
@@ -264,7 +264,7 @@ font-family: 'Aboreto', cursive;
 
 .contact-link {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
@@ -273,10 +273,10 @@ font-family: 'Aboreto', cursive;
 
 .sidebar-title {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 22px;
   line-height: 27px;
-  color: #000000;;
+  color: #fb6d3a;
   margin-bottom: 10px;
   font-family: 'Aboreto', cursive;
 }
@@ -295,7 +295,7 @@ font-family: 'Aboreto', cursive;
 .tech-skills-text {
   color: #ffffff;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   line-height: 24px;
 }
@@ -314,7 +314,7 @@ font-family: 'Aboreto', cursive;
 .soft-skills-text {
   color: #ffffff;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   line-height: 24px;
 }
