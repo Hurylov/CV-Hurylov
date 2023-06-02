@@ -175,7 +175,31 @@ font-family: 'Josefin Sans', sans-serif;
     font-size: 19px;
       font-family: 'Alegreya Sans SC', sans-serif;
       color: #595959;
+      text-decoration: none;
 }
+
+a.project-link:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.project-link:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
 
 .project-bracet {
   font-style: normal;
@@ -183,6 +207,7 @@ font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
+  padding-top: 10px;
 }
 
 .project-text{
@@ -336,7 +361,31 @@ font-family: 'Josefin Sans', sans-serif;
   line-height: 25px;
   color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
+  
 }
+a.contact-link:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.contact-link:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
 
 .sidebar-title {
   font-style: normal;
