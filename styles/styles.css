@@ -14,7 +14,6 @@
 
 .main-content {
   background-color: #f3f3f3;
-  box-shadow: 6px 6px 20px rgb(135 104 104 / 64%);
 }
 
 .wrapper{
@@ -22,10 +21,75 @@
     flex-direction: row-reverse;
     max-width: 1200px;
 }
+
+.background-image{
+  width: 700px;
+  height: 100px;
+  background-color: #090909;
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.text-animation{
+  color: #f3f3f3;
+}
+
+.background-text-animation{
+      font-family: 'Rubik Mono One', sans-serif;
+      color: #fb6d3a;
+      font-size: 30px;
+      padding-top: 15px;
+      padding-left: 30px;
+      max-width: 40ch;
+      text-align: center;
+      transform: scale(0.94);
+      animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    }
+  
+    @keyframes scale {
+      100% {
+        transform: scale(1);
+      }
+    }
+
+      span {
+          display: inline-block;
+          opacity: 0;
+          filter: blur(4px);
+        }
+      
+        span:nth-child(1) {
+          animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+      
+        span:nth-child(2) {
+          animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+      
+        span:nth-child(3) {
+          animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+      
+        span:nth-child(4) {
+          animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+      
+        span:nth-child(5) {
+          animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+      
+        span:nth-child(6) {
+          animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+      @keyframes fade-in {
+          100% {
+            opacity: 1;
+            filter: blur(0);
+          }
+    }
 /* about styles */
 
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   padding-left: 50px;
 }
 
@@ -46,7 +110,7 @@ font-family: 'Aboreto', cursive;
   line-height: 55px;
   color: #fb6d3a;;
   margin-bottom: 25px;
-  font-family: 'Aboreto', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .about-discription {
@@ -56,7 +120,7 @@ font-family: 'Aboreto', cursive;
   line-height: 24px;
   color: #595959;
   width: 600px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
   word-spacing: 5px;
 }
 
@@ -103,6 +167,7 @@ font-family: 'Aboreto', cursive;
 .project-link {
   font-size: 19px;
   font-family: 'Alegreya Sans SC', sans-serif;
+  text-decoration: none;
 }
 
 .project-link-git{
@@ -124,7 +189,7 @@ font-family: 'Aboreto', cursive;
   margin-top: 0;
   font-size: 19px;
   font-weight: 400;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   word-spacing: 5px;
 }
 /* work styles */
@@ -180,7 +245,7 @@ font-family: 'Aboreto', cursive;
   line-height: 24px;
   color: #595959;
   
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .achivment{
@@ -226,12 +291,13 @@ font-family: 'Aboreto', cursive;
 .sidebar {
   background-color: #090909;
   padding-top: 40px;
-  width: 300px;
+  width: 320px;
 }
 
 .photo {
   width: 300px;
   margin-bottom: 50px;
+  margin-left: 10px;
   border: 1px solid #000000;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -264,17 +330,18 @@ font-family: 'Aboreto', cursive;
 
 .contact-link {
   font-style: normal;
+  text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 25px;
   color: #ffffff;
-  font-family: 'Aboreto', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .sidebar-title {
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 40px;
   line-height: 27px;
   color: #fb6d3a;
   margin-bottom: 10px;
@@ -289,15 +356,16 @@ font-family: 'Aboreto', cursive;
 
 .tech-skills-item {
   color: #fb6d3a;
-  font-family: 'Aboreto', cursive;
+  font-family: 'Labrada', serif;
 }
 
 .tech-skills-text {
   color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .soft-skills-list {
@@ -313,10 +381,11 @@ font-family: 'Aboreto', cursive;
 
 .soft-skills-text {
   color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 /*  media     */
