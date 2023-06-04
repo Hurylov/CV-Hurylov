@@ -38,9 +38,8 @@
       color: #fb6d3a;
       font-size: 30px;
       padding-top: 15px;
-      padding-left: 30px;
+      padding-left: 50px;
       max-width: 40ch;
-      text-align: center;
       transform: scale(0.94);
       animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
     }
@@ -128,7 +127,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .projects {
   margin-bottom: 50px;
-  padding-left: 50px;
+  padding-left: 60px;
 }
 
 .title {
@@ -147,36 +146,27 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 .projects-item {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  color: #000000;
-  list-style-type: none;
+color: #fb6d3a;
+  font-family: 'Labrada', serif;
+  font-size: 30px;
 }
 
 .project,
 .project-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   color: #595959;
 }
 
 .project-link {
-  font-size: 19px;
+  font-size: 25px;
   font-family: 'Alegreya Sans SC', sans-serif;
-  text-decoration: none;
+  font-weight: bold;
 }
 
-.project-link-git{
-  padding-left: 20px;
-    font-size: 19px;
-      font-family: 'Alegreya Sans SC', sans-serif;
-      color: #595959;
-      text-decoration: none;
-}
+
 
 a.project-link:after {
   content: '';
@@ -200,14 +190,46 @@ a.project-link:hover:after {
   transform: scale(1);
 }
 
+.project-link-git {
+  padding-left: 20px;
+  font-size: 19px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #595959;
+  font-weight: bold;
+}
+
+a.project-link-git:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.project-link-git:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
 
 .project-bracet {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 25px;
   line-height: 24px;
   color: #000000;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .project-text{
@@ -257,6 +279,16 @@ a.project-link:hover:after {
   line-height: 15px;
   color: #000000;
 }
+
+.line-link {
+  font-style: normal;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
 
 .work-list {
   padding: 0;
