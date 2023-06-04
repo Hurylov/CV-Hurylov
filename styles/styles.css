@@ -191,7 +191,7 @@ a.project-link:hover:after {
 }
 
 .project-link-git {
-  padding-left: 20px;
+  padding-left: 5px;
   font-size: 19px;
   font-family: 'Alegreya Sans SC', sans-serif;
   color: #595959;
@@ -282,9 +282,9 @@ a.project-link-git:hover:after {
 
 .line-link {
   font-style: normal;
-  padding-left: 20px;
-  font-weight: 400;
-  font-size: 12px;
+  padding-left: 5px;
+  font-weight: 700;
+  font-size: 25px;
   line-height: 15px;
   color: #000000;
 }
